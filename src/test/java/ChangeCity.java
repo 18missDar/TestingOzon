@@ -10,7 +10,7 @@ public class ChangeCity extends SupportTestSettings {
 
     @Test
     public void secondTest() {
-        PageObjectMain pageObjectMain = new PageObjectMain(driver, webDriverWait);
+        PageObjectMain pageObjectMain = new PageObjectMain(driver, webDriverWait); //
         CityPage cityPage = new CityPage(driver);
         cityPage.clickCityLabel();
         cityPage.inputCity();

@@ -12,7 +12,7 @@ import java.util.Properties;
 
 public abstract class SupportTestSettings {
 
-    public static EventFiringWebDriver driver;
+    public static EventFiringWebDriver driver;//
     public static WebDriverWait webDriverWait;
     public static Properties properties = new Properties();
     public static final String OZON_URL = "https://www.ozon.ru";
@@ -31,8 +31,8 @@ public abstract class SupportTestSettings {
         driver.get(OZON_URL);
     }
 
-//    @AfterMethod
-//    public void close() {
-//        driver.quit();
-//    }
+    @AfterMethod
+    public void close() {
+        driver.quit();
+    }
 }

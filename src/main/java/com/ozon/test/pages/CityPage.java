@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static org.testng.Assert.assertEquals;
 
 public class CityPage {
-    WebDriver driver;
+    WebDriver driver;//
     WebDriverWait wait;
 
     private static final String CITY_XPATH = "/html/body/div[1]/div/div/div[1]/div/button/span";

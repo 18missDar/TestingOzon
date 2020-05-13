@@ -9,5 +9,5 @@ public class TestListener extends TestListenerAdapter {
     @Override
     public void onTestFailure(ITestResult result){
         ScreenshotMaker.takeScreenshot();
-    }
+    } //
 }

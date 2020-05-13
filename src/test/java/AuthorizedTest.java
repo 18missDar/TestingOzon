@@ -9,7 +9,7 @@ public class AuthorizedTest extends SupportTestSettings {
 
     @Test
     public void firstTest() {
-        PageObjectMain pageObjectMain = new PageObjectMain(driver, webDriverWait);
+        PageObjectMain pageObjectMain = new PageObjectMain(driver, webDriverWait);//
         pageObjectMain.clickLoginButton();
         pageObjectMain.inputPhoneNumber();
         pageObjectMain.inputVerificationCode();
