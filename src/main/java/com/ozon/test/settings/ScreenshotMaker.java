@@ -6,7 +6,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class ScreenshotMaker {
 
-    @Attachment(value = "Page screenshot", type = "image/png")//
+    @Attachment(value = "Page screenshot", type = "image/png")
     public static byte[] takeScreenshot(){
         return ((TakesScreenshot) SupportTestSettings.driver).getScreenshotAs(OutputType.BYTES);
     }

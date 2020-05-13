@@ -11,7 +11,7 @@ public class WebDriverEventListener extends AbstractWebDriverEventListener {
     @Override
     public void beforeClickOn(WebElement element, WebDriver driver) {
         ScreenshotMaker.takeScreenshot();
-    }//
+    }
 
     @Override
     public void afterChangeValueOf(WebElement element,

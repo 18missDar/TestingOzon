@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class BuyJuicers extends SupportTestSettings{
     @Test
     public void thirdTest() {
-        PageObjectMain pageObjectMain = new PageObjectMain(driver, webDriverWait);//
+        PageObjectMain pageObjectMain = new PageObjectMain(driver, webDriverWait);
 
         JuicersPage juicersPage = new JuicersPage(driver);
         juicersPage.open();

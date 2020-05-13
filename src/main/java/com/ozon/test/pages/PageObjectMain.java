@@ -13,7 +13,7 @@ import static org.testng.Assert.assertEquals;
 
 public class PageObjectMain {
 
-    WebDriver driver;//
+    WebDriver driver;
     WebDriverWait webDriverWait;
 
     private static final String LOGIN_BUTTON_XPATH = "//*[@id=\"__nuxt\"]/div/div[1]/div[2]/div[1]/div[2]/div[2]/div/button/div/div";

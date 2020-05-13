@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class JuicersPage {
-    WebDriver driver;//
+    WebDriver driver;
     WebDriverWait wait;
 
     public JuicersPage(WebDriver driver) {

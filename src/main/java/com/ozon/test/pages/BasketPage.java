@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class BasketPage {
-    WebDriver driver;//
+    WebDriver driver;
     WebDriverWait wait;
 
     @FindBy(xpath = "//*[@id=\"__nuxt\"]/div/div[1]/div/div/div[3]/div[4]/div[1]/div[1]/div/div[2]/div[3]/div[3]/div[1]/div/span")
